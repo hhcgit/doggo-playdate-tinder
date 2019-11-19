@@ -1,0 +1,33 @@
+{
+  "name": "doggo-playdate-tinder",
+  "version": "1.0.0",
+  "description": "Doggy Playtime Tinder | Voyage-13 | https://chingu.io/ | Twitter: https://twitter.com/ChinguCollabs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/src/server.js",
+    "dev": "nodemon server/src/server.js",
+    "create": "npx sequelize db:create",
+    "drop": "npx sequelize db:drop",
+    "migrate": "postgrator --config server/postgrator-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhcgit/doggo-playdate-tinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hhcgit/doggo-playdate-tinder/issues"
+  },
+  "homepage": "https://github.com/hhcgit/doggo-playdate-tinder#readme",
+  "dependencies": {
+    "knex": "^0.20.2",
+    "pg": "^7.12.1",
+    "postgrator": "^3.10.2",
+    "postgrator-cli": "^3.3.0",
+    "sequelize": "^5.21.2",
+    "sequelize-cli": "^5.5.1",
+    "xss": "^1.0.6"
+  }
+}

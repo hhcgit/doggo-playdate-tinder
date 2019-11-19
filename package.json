@@ -1,0 +1,20 @@
+{
+  "name": "doggo-playdate-tinder",
+  "version": "1.0.0",
+  "description": "Doggy Playtime Tinder | Voyage-13 | https://chingu.io/ | Twitter: https://twitter.com/ChinguCollabs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhcgit/doggo-playdate-tinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hhcgit/doggo-playdate-tinder/issues"
+  },
+  "homepage": "https://github.com/hhcgit/doggo-playdate-tinder#readme"
+}
